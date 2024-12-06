@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Áudio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+
+        <div class="audio-player">
+            <img src="img/vv.png" alt="Album Cover" class="cover" id="album-cover">
+            <div class="info">
+                <p class="title" id="audio-title">Vícios e Virtudes (Ao Vivo)</p>
+                <p class="artist" id="audio-artist">Charlie Brown Jr.</p>
+            </div>
+            <audio id="audio" controls>
+                <source id="audio-source" src="img/Charlie Brown Jr - Vícios E Virtudes.mp3" type="audio/mp3">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <div class="controls">
+                <button id="prev-btn">⏮️ Anterior</button>
+                <button id="next-btn">⏭️ Próximo</button>
+            </div>
+        </div>
+    
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
